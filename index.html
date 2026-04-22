@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Analisador de Segurança</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="analyzer-box">
+        <h2>Verificador de Senha</h2>
+        <input type="password" id="password-input" placeholder="Digite sua senha...">
+        
+        <div class="strength-meter">
+            <div id="strength-bar"></div>
+        </div>
+        
+        <ul id="criteria-list">
+            <li id="length">Mínimo 8 caracteres</li>
+            <li id="numbers">Contém números</li>
+            <li id="special">Contém símbolos (!@#$)</li>
+        </ul>
+
+        <div id="leak-status">Status: Aguardando entrada...</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
