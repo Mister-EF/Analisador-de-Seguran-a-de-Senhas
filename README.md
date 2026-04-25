@@ -83,3 +83,4 @@ Response:
 { "status": "Vulnerável", "message": "Esta senha é muito comum!" }
 { "status": "Seguro",     "message": "Nenhum vazamento detectado." }
 ```
+Thank you for your attention!
