@@ -1,7 +1,7 @@
 # Password Security Analyzer
 
 A hybrid application using JavaScript for instant frontend visual feedback and a Python backend to cross-reference inputs against databases of common or compromised passwords. Strength analysis happens client-side in real time — leak detection runs server-side through a Flask API.
-
+a
 ---
 
 ## How It Works
